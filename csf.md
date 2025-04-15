@@ -18,9 +18,9 @@ Despite the initial impression, the Curve Shortening Flow is a quasi-linear para
 
 ### Definition
 
-\begin{equation}
+$$
 \partial_t c = \vec{\kappa} = -\kappa N.
-\end{equation}
+$$
 
 Let's take a look at an example.
 
@@ -28,25 +28,25 @@ Let's take a look at an example.
 
 **The Shrinking Circle**
 
-\begin{equation}
+$$
 c(u, t) = \sqrt{1-r_0^2} (\cos u, \sin u)
-\end{equation}
+$$
 
 ### Lemma
 
 In a parametrisation, the CSF is the evolution equation
-\begin{equation}
+$$
 \partial_t (x, y) =
-\end{equation}
+$$
 
 ## Evolution Equations
 
 ### Lemma
 
 The commutator of arc length and time derivatives is
-\begin{equation}
+$$
 [\partial_t, \partial_s] = - \kappa^2 \partial_s
-\end{equation}
+$$
 
 ## Long Time Behaviour
 
@@ -54,7 +54,7 @@ The commutator of arc length and time derivatives is
 
 [Gage-Hamilton-Grayson Theorem](https://en.wikipedia.org/wiki/Curve-shortening_flow#Gage%E2%80%93Hamilton%E2%80%93Grayson_theorem)
 
-The CSF exists on the maximal time interval \([0, T)\) where \(T = \tfrac{A_0}{2\pi}\) where \(A_0\) is the initial area. Upon rescaling to fix the total length, the CSF converges smoothly to a circle of total length \(L_0\) as \(t \to T\) where \(L_0\) is the initial length.
+The CSF exists on the maximal time interval $[0, T)$ where $T = \tfrac{A_0}{2\pi}$ where $A_0$ is the initial area. Upon rescaling to fix the total length, the CSF converges smoothly to a circle of total length $L_0$ as $t \to T$ where $L_0$ is the initial length.
 
 ## Numerical Simulation
 
