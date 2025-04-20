@@ -12,21 +12,6 @@ kernelspec:
   name: python3
 ---
 
-```{code-cell} ipython3
-import numpy as np
-import sympy as sp
-
-import pandas as pd
-
-import plotly.express as px
-import plotly.graph_objects as go
-
-import plotly.io as pio
-pio.templates.default  = "plotly_dark"
-
-import imageio.v3 as iio
-```
-
 # Introduction
 
 The [Curve Shortening Flow ](https://en.wikipedia.org/wiki/Curve-shortening_flow) is a _geometric evolution equation_ whereby a curve is deformed in the direction of its curvature vector. It is the geometric heat equation for curves in the sense that the speed is the Laplacian with respect to the arc-length parameter.
@@ -58,6 +43,22 @@ Let's take a look at an example.
 $$
 c(u, t) = \sqrt{1-r_0^2} (\cos u, \sin u)
 $$
+
+```{code-cell} ipython3
+:tags: [remove-input]
+import numpy as np
+import sympy as sp
+
+import pandas as pd
+
+import plotly.express as px
+import plotly.graph_objects as go
+
+import plotly.io as pio
+pio.templates.default  = "plotly_dark"
+
+import imageio.v3 as iio
+```
 
 ```{code-cell} ipython3
 t = np.linspace(0, 2*np.pi, 100)
