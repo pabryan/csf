@@ -67,7 +67,6 @@ xval = np.cos(t)
 yval = np.sin(t)
 
 fig = px.line(x = xval, y = yval)
-fig.update_traces(patch={"line" : {"dash": "dash"}})
 fig.update_yaxes(scaleanchor = "x", scaleratio = 1)
 
 # Hide axes
@@ -77,7 +76,7 @@ fig.update_layout(xaxis=dict(visible=False), yaxis=dict(visible=False))
 fig.update_layout(
 paper_bgcolor = 'rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
 
-fig.show()
+fig
 ```
 
 ## Lemma
