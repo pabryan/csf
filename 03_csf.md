@@ -32,7 +32,6 @@ $$
 
 ```{code-cell} ipython3
 :tags: [remove-input]
-
 import numpy as np
 import sympy as sp
 
@@ -48,8 +47,6 @@ import imageio.v3 as iio
 ```
 
 ```{code-cell} ipython3
-:tags: [remove-input]
-
 t = np.linspace(0, 2*np.pi, 100)
 
 xval = np.cos(t)
