@@ -32,6 +32,7 @@ $$
 
 ```{code-cell} ipython3
 :tags: [remove-input]
+
 import numpy as np
 import sympy as sp
 
